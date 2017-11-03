@@ -1,0 +1,22 @@
+
+<div>
+<body ng-app="airbnb" ng-controller="signupControl">
+  <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>Air<span>BNB</span></div>
+		</div>
+		<br>
+		<div class="login">
+			<form>
+			<input type="text" placeholder="name"  ng-model="user" required><br>
+			<input type="E-mail" placeholder="E-mail"  ng-model="email" required><br>
+			<input type="password" placeholder="password"  ng-model="password" required><br>
+			<input type="button" value="Submit" ng-click=submit(user,email,password)>
+			</form>
+			<p>{{Status}}</p>
+			<input type="button" value="login" ng-click=redirectIndex()>
+		</div>
+
+</body>
+</div>

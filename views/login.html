@@ -1,0 +1,23 @@
+
+<div>
+<body ng-app="response" ng-controller="responseControl">
+  <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>Air<span>BNB</span></div>
+		</div>
+		<br>
+		<div class="login">
+			<form>
+			<input type="text" placeholder="email"  ng-model="user" required><br>
+			<input type="password" placeholder="password"  ng-model="password" required><br>
+			<input type="button" value="Login" ng-click=login(user,password)>
+			</form>
+			
+			<input type="button" value="Signup" ng-click=signup()>
+		</div>
+    </body>
+</div>
+
+
+
